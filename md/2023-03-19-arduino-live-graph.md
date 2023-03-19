@@ -32,8 +32,7 @@ Before we get into the Python code, let's first discuss the circuitry. We'll be 
 
 Once the circuit is set up, upload the following code to the Arduino board:
 
-```int
-ino
+```ino
 void setup() {
 Serial.begin(9600);
 }
