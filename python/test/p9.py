@@ -4,8 +4,8 @@ class Complex:
         self.imaginary = imaginary
         
     def __str__(self):
-        return 'Sum of complex number: {}+{}i'.format(self.real, self.imaginary)
-    
+        return 'Sum of complex number: ' + str(self.real) + ' + ' + str(self.imaginary) + 'i'
+
     def __add__(self, other):
         result_real = self.real + other.real
         result_imaginary = self.imaginary + other.imaginary
