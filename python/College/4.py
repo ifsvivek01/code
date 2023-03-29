@@ -4,8 +4,7 @@
 def count_digits(number):
     dc = {}
     for i in str(number):
-        if i.isdigit():
-            dc[i] = dc.get(i,0) + 1
+        dc[i] = dc.get(i,0) + 1
     for digit, count in dc.items():
         print(f"The digit {digit} appears {count} times")
 
